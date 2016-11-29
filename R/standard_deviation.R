@@ -1,3 +1,12 @@
+#' standard_deviation
+#'
+#' @param x 
+#'
+#' @return
+#' @export
+#'
+#' @examples
+
 standard_deviation <- function(x) {
   n <- length(x)
   mean = sum(x) / n
@@ -7,4 +16,15 @@ standard_deviation <- function(x) {
 }
 
 
-standarderror <- function(x) standarddeviation(x)/sqrt(length(x))
+
+#' standarderror
+#'
+#' @param x 
+#'
+#' @return
+#' @export
+#'
+#' @examples
+standarderror <- function(x) {
+  standarddeviation(x)/sqrt(length(x))
+  }
