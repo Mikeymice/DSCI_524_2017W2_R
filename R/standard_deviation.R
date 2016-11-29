@@ -26,5 +26,5 @@ standard_deviation <- function(x) {
 #'
 #' @examples
 standarderror <- function(x) {
-  standarddeviation(x)/sqrt(length(x))
+  standard_deviation(x)/sqrt(length(x))
   }
