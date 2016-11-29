@@ -2,7 +2,7 @@
 
 #### To install please execute the following in `R`:
 
-`devtools::install_github("alim1990/stdDev", host ="github.ubc.ca/api/v3", auth_token=c7bf3282a7ac2559baf44a1bfbe975a6acc9258b)`
+`devtools::install_github("alim1990/stdDev", host ="github.ubc.ca/api/v3", auth_token="c7bf3282a7ac2559baf44a1bfbe975a6acc9258b")`
 
 #### How to use:
 
