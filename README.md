@@ -6,8 +6,8 @@
 
 #### How to use:
 
-Usage: `standard_deviation(x)`
-Input: `x`: an array of numbers
+Usage: `standard_deviation(x)`  
+Input: `x`: an array of numbers  
 Output: standard deviation of the array `x`
 
 Example:
@@ -15,4 +15,17 @@ Example:
 ```
 x<-c(1,2,3,4)
 standard_deviation(x)
+```
+
+--
+
+Usage: `standarderror(x)`  
+Input: `x`: an array of numbers  
+Output: standard error of the array `x`
+
+Example:
+
+```
+x<-c(1,2,3,4)
+standarderror(x)
 ```
