@@ -7,9 +7,16 @@
 standard_deviation(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{a list of numbers}
+}
+\value{
+stddev a float
 }
 \description{
 standard_deviation
+}
+\examples{
+x <-c(1,2,3,4) 
+standard_deviation(x)
 }
 
