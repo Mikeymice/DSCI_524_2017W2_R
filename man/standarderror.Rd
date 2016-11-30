@@ -7,9 +7,18 @@
 standarderror(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{a list of numbers}
+}
+\value{
+se a float
 }
 \description{
 standarderror
+}
+\examples{
+x <-c(1,2,3,4) 
+standarderror(x)
+
+
 }
 
