@@ -2,11 +2,11 @@
 #'
 #' @param x a list of numbers
 #'
-#' @return stddev a float
+#' @return float
 #' @export
 #'
-#' @examples 
-#' x <-c(1,2,3,4) 
+#' @examples
+#' x <-c(1,2,3,4)
 #' standard_deviation(x)
 
 standard_deviation <- function(x) {
@@ -23,14 +23,14 @@ standard_deviation <- function(x) {
 #'
 #' @param x a list of numbers
 #'
-#' @return se a float
+#' @return float
 #' @export
 #'
-#' @examples 
-#' x <-c(1,2,3,4) 
+#' @examples
+#' x <-c(1,2,3,4)
 #' standarderror(x)
-#' 
-#' 
+#'
+#'
 standarderror <- function(x) {
   se <- standard_deviation(x)/sqrt(length(x))
   return(se)

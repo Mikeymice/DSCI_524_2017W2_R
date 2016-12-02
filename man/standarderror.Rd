@@ -10,13 +10,13 @@ standarderror(x)
 \item{x}{a list of numbers}
 }
 \value{
-se a float
+float
 }
 \description{
 standarderror
 }
 \examples{
-x <-c(1,2,3,4) 
+x <-c(1,2,3,4)
 standarderror(x)
 
 

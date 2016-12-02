@@ -10,13 +10,13 @@ standard_deviation(x)
 \item{x}{a list of numbers}
 }
 \value{
-stddev a float
+float
 }
 \description{
 standard_deviation
 }
 \examples{
-x <-c(1,2,3,4) 
+x <-c(1,2,3,4)
 standard_deviation(x)
 }
 
