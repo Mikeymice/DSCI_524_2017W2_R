@@ -1,5 +1,10 @@
 # Standard Deviation
 
+This package contains functions in `R` that calculate commonly used statistics from a list of numbers. As of yet, this package contains code to compute the following:
+
+- standard deviation
+- standard error
+
 #### To install please execute the following in `R`:
 
 `devtools::install_github("alim1990/stdDev", host ="github.ubc.ca/api/v3", auth_token="c7bf3282a7ac2559baf44a1bfbe975a6acc9258b")`
@@ -7,7 +12,7 @@
 #### How to use:
 
 Usage: `standard_deviation(x)`  
-Input: `x`: an array of numbers  
+Input: `x`: a vector of doubles  
 Output: standard deviation of the array `x`
 
 Example:
@@ -20,7 +25,7 @@ standard_deviation(x)
 --
 
 Usage: `standarderror(x)`  
-Input: `x`: an array of numbers  
+Input: `x`: a vector of doubles  
 Output: standard error of the array `x`
 
 Example:
