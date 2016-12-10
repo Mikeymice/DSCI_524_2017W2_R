@@ -9,15 +9,26 @@
 #' x <-c(1,2,3,4)
 #' standard_deviation(x)
 
-standard_deviation <- function(x) {
-  print("Great success")
-  n <- length(x)
-  mean = sum(x) / n
-  ssq <- sum((x-mean)^2)
-  stddev = sqrt(ssq/n)
-  return(stddev)
-}
 
+standard_deviation <- function(x) {
+  if(is.null(x)){
+    stop("Error: Zero division")
+  }
+  if(!is.vector(x)){
+    stop("Error: Type of x must be vector")
+  }
+  if(!is.integer(x) & !is.double(x)){
+    stop("Error: x must be a vector of type integer or double")
+  }
+
+  tryCatch({
+    n <- length(x)
+    mean = sum(x) / n
+    ssq <- sum((x-mean)^2)
+    stddev = sqrt(ssq/n)
+    return(stddev)}, error=function(e) {
+      stop("Error: Something unknown went wrong in standard_deviation")})
+}
 
 
 #' standarderror
@@ -33,6 +44,18 @@ standard_deviation <- function(x) {
 #'
 #'
 standarderror <- function(x) {
-  se <- standard_deviation(x)/sqrt(length(x))
-  return(se)
+  if(is.null(x)){
+    stop("Error: Zero division")
+  }
+  if(!is.vector(x)){
+    stop("Error: Type of x must be vector")
+  }
+  if(!is.integer(x) & !is.double(x)){
+    stop("Error: x must be a vector of type integer or double")
+  }
+
+  tryCatch({
+    se <- standard_deviation(x)/sqrt(length(x))
+    return(se)}, error=function(e) {
+      stop("Error: Something unknown went wrong in standard_error")})
   }
