@@ -10,6 +10,7 @@
 #' standard_deviation(x)
 
 standard_deviation <- function(x) {
+  print("Great success")
   n <- length(x)
   mean = sum(x) / n
   ssq <- sum((x-mean)^2)
