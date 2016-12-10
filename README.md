@@ -1,5 +1,7 @@
 # Standard Deviation
 
+[![Build Status](https://travis-ci.org/AndrewLim1990/stdDev.svg?branch=master)](https://travis-ci.org/AndrewLim1990/stdDev)
+
 This package contains functions in `R` that calculate commonly used statistics from a list of numbers. As of yet, this package contains code to compute the following:
 
 - standard deviation
@@ -7,7 +9,7 @@ This package contains functions in `R` that calculate commonly used statistics f
 
 #### To install please execute the following in `R`:
 
-`devtools::install_github("https://github.com/AndrewLim1990/stdDev.git")`
+`devtools::install_github("AndrewLim1990/stdDev")`
 
 #### How to use:
 
@@ -34,6 +36,3 @@ Example:
 x<-c(1,2,3,4)
 standarderror(x)
 ```
-#### Building:
-
-[![Build Status](https://travis-ci.org/AndrewLim1990/stdDev.svg?branch=master)](https://travis-ci.org/AndrewLim1990/stdDev)
