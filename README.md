@@ -7,7 +7,7 @@ This package contains functions in `R` that calculate commonly used statistics f
 
 #### To install please execute the following in `R`:
 
-`devtools::install_github("alim1990/stdDev", host ="github.ubc.ca/api/v3", auth_token="c7bf3282a7ac2559baf44a1bfbe975a6acc9258b")`
+`devtools::install_github("https://github.com/AndrewLim1990/stdDev.git")`
 
 #### How to use:
 
@@ -34,3 +34,6 @@ Example:
 x<-c(1,2,3,4)
 standarderror(x)
 ```
+#### Building:
+
+[![Build Status](https://travis-ci.org/AndrewLim1990/stdDev.svg?branch=master)](https://travis-ci.org/AndrewLim1990/stdDev)
